@@ -1,0 +1,1 @@
+simu -mmotor.ma -emotor.ev -ltestmotor.log -otestmotor.out

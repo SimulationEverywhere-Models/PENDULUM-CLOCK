@@ -1,0 +1,1 @@
+simu -mpendulo.ma -ependulo.ev -ltestpendulo.log -otestpendulo.out

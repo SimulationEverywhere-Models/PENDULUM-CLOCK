@@ -1,0 +1,175 @@
+# Title:agujas
+# background:
+# cant units:2
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:0
+# 	location x:214
+# 	location y:76
+# 	name:min
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:atomico.gif
+# 	cant Initial params:0
+# 	Model imported form register:AgujaMin
+# 	cant ports:6
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:1
+# 	Port ID:VALUE
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:TIC
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:4
+# 	Port ID:IN_INCREMENT
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:5
+# 	Port ID:IN_DECREMENT
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:6
+# 	Port ID:OUT_INCREMENT
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:7
+# 	Port ID:OUT_DECREMENT
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:1
+# 	location x:215
+# 	location y:188
+# 	name:hora
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:atomico.gif
+# 	cant Initial params:0
+# 	Model imported form register:AgujaHour
+# 	cant ports:3
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:1
+# 	Port ID:VALUE
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:INCREMENT
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:3
+# 	Port ID:DECREMENT
+# 	Port In/Out:In
+# 	Port Type:Float
+# cant ports:5
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:2
+# 	Port ID:HOUR_VALUE
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	location x:379
+# 	location y:156
+# 	  class:gui.representation.Image
+# 	  filename:po.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:3
+# 	Port ID:MIN_VALUE
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	location x:382
+# 	location y:94
+# 	  class:gui.representation.Image
+# 	  filename:po.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:4
+# 	Port ID:TIC
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	location x:99
+# 	location y:60
+# 	  class:gui.representation.Image
+# 	  filename:pi.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:5
+# 	Port ID:INCREMENT
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	location x:99
+# 	location y:111
+# 	  class:gui.representation.Image
+# 	  filename:pi.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:6
+# 	Port ID:DECREMENT
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	location x:98
+# 	location y:158
+# 	  class:gui.representation.Image
+# 	  filename:pi.gif
+# Cant Links:7
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:7
+# 			start unit Point:1
+# 			end unit Point:2
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:1
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:8
+# 			start unit Point:0
+# 			end unit Point:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:1
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:3
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:9
+# 			start unit Point:4
+# 			end unit Point:0
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:4
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:10
+# 			start unit Point:5
+# 			end unit Point:0
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:5
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:4
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:11
+# 			start unit Point:6
+# 			end unit Point:0
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:6
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:5
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:12
+# 			start unit Point:0
+# 			end unit Point:1
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:6
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:13
+# 			start unit Point:0
+# 			end unit Point:1
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:7
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:3

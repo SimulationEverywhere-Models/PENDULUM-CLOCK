@@ -1,0 +1,1 @@
+simu -mcontrolalarma.ma -econtrolalarma.ev -ltestcontrolalarma.log -otestcontrolalarma.out

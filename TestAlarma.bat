@@ -1,0 +1,1 @@
+simu -malarma.ma -ealarma.ev -ltestalarma.log -otestalarma.out

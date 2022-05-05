@@ -1,0 +1,1 @@
+simu -mcontrolencendido.ma -econtrolencendido.ev -ltestcontrolencendido.log -otestcontrolencendido.out
